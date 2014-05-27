@@ -1,0 +1,15 @@
+{
+  "name": "compress-geojson",
+  "version": "0.0.1",
+  "description": "Abreviates GeoJSON keys like properties, geometry, coordinates to minimize the overhead",
+  "main": "./lib/compressGeojson.js",
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "author": "dwilhelm89",
+  "license": "MIT",
+  "dependencies": {
+    "geojson-validation": "~0.1.5",
+    "clone": "~0.1.15"
+  }
+}
